@@ -97,7 +97,7 @@ public class   MainActivity extends AppCompatActivity {
 
     private void checkTicketOnServer(int ticket_id) {
         OkHttpClient client = new OkHttpClient();
-        String url = "http://192.168.0.114/RailBooker-RTS-main/RailBooker-RTS-main/api/get_ticket.php?ticket_id=" + ticket_id;
+        String url = "http://192.168.0.114/Anti%20Black%20Ticket%20System/Anti%20Black%20Ticket%20System/api/get_ticket.php?ticket_id=" + ticket_id;
 
         Request request = new Request.Builder()
                 .url(url)
